@@ -1,0 +1,9 @@
+Building Crazycoin
+
+See doc/readme-qt.rst for instructions on building crazycoin-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Crazycoin.
+
+See doc/build-*.txt for instructions on building crazycoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of Crazycoin.
