@@ -217,15 +217,15 @@ if __name__ == '__main__':
 	if 'host' not in settings:
 		settings['host'] = '127.0.0.1'
 	if 'port' not in settings:
-		settings['port'] = 8332
+		settings['port'] = 22222
 	if 'threads' not in settings:
-		settings['threads'] = 1
+		settings['threads'] = 4
 	if 'hashmeter' not in settings:
-		settings['hashmeter'] = 0
+		settings['hashmeter'] = 1
 	if 'scantime' not in settings:
 		settings['scantime'] = 30L
 	if 'rpcuser' not in settings or 'rpcpass' not in settings:
-		print "Missing username and/or password in cfg file"
+		print "Put the Username and Password in the config file you Crazy Fool"
 		sys.exit(1)
 
 	settings['port'] = int(settings['port'])

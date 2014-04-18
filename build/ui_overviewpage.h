@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'overviewpage.ui'
 **
-** Created: Sat 5. Oct 14:23:48 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -61,7 +61,7 @@ public:
     {
         if (OverviewPage->objectName().isEmpty())
             OverviewPage->setObjectName(QString::fromUtf8("OverviewPage"));
-        OverviewPage->resize(573, 342);
+        OverviewPage->resize(600, 400);
         horizontalLayout = new QHBoxLayout(OverviewPage);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         verticalLayout_2 = new QVBoxLayout();
@@ -87,7 +87,7 @@ public:
         labelWalletStatus = new QLabel(frame);
         labelWalletStatus->setObjectName(QString::fromUtf8("labelWalletStatus"));
         labelWalletStatus->setStyleSheet(QString::fromUtf8("QLabel { color: red; }"));
-        labelWalletStatus->setText(QString::fromUtf8("(out of sync)"));
+        labelWalletStatus->setText(QString::fromUtf8("(Waiting For Next Block)"));
         labelWalletStatus->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
         horizontalLayout_4->addWidget(labelWalletStatus);

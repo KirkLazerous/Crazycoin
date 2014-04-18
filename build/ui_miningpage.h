@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'miningpage.ui'
 **
-** Created: Sat 5. Oct 14:10:10 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -57,7 +57,7 @@ public:
     {
         if (MiningPage->objectName().isEmpty())
             MiningPage->setObjectName(QString::fromUtf8("MiningPage"));
-        MiningPage->resize(780, 636);
+        MiningPage->resize(800, 650);
         gridLayout = new QGridLayout(MiningPage);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
@@ -233,13 +233,13 @@ public:
 
     void retranslateUi(QWidget *MiningPage)
     {
-        MiningPage->setWindowTitle(QApplication::translate("MiningPage", "Mining", 0, QApplication::UnicodeUTF8));
+        MiningPage->setWindowTitle(QApplication::translate("MiningPage", "Minting", 0, QApplication::UnicodeUTF8));
         usernameLabel->setText(QApplication::translate("MiningPage", "Username", 0, QApplication::UnicodeUTF8));
         serverLabel->setText(QApplication::translate("MiningPage", "Server", 0, QApplication::UnicodeUTF8));
         usernameLine->setText(QString());
         passwordLabel->setText(QApplication::translate("MiningPage", "Password", 0, QApplication::UnicodeUTF8));
         portLabel->setText(QApplication::translate("MiningPage", "Port", 0, QApplication::UnicodeUTF8));
-        startButton->setText(QApplication::translate("MiningPage", "Start Mining", 0, QApplication::UnicodeUTF8));
+        startButton->setText(QApplication::translate("MiningPage", "Start Minting", 0, QApplication::UnicodeUTF8));
         shareCount->setText(QString());
         scantimeLabel->setText(QApplication::translate("MiningPage", "Scantime", 0, QApplication::UnicodeUTF8));
         threadsLabel->setText(QApplication::translate("MiningPage", "Threads", 0, QApplication::UnicodeUTF8));

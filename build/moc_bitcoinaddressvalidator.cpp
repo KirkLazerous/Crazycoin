@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bitcoinaddressvalidator.h'
 **
-** Created: Sat 5. Oct 14:14:37 2013
+** Created: Mon 31. Mar 08:34:35 2014
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

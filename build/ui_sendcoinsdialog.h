@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sendcoinsdialog.ui'
 **
-** Created: Sat 5. Oct 14:23:48 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -157,7 +157,7 @@ public:
 #ifndef QT_NO_TOOLTIP
         sendButton->setToolTip(QApplication::translate("SendCoinsDialog", "Confirm the send action", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        sendButton->setText(QApplication::translate("SendCoinsDialog", "&Send", 0, QApplication::UnicodeUTF8));
+        sendButton->setText(QApplication::translate("SendCoinsDialog", "&Pay", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

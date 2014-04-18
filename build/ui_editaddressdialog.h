@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'editaddressdialog.ui'
 **
-** Created: Sat 5. Oct 14:10:10 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -92,11 +92,11 @@ public:
         EditAddressDialog->setWindowTitle(QApplication::translate("EditAddressDialog", "Edit Address", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("EditAddressDialog", "&Label", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
-        labelEdit->setToolTip(QApplication::translate("EditAddressDialog", "The label associated with this address book entry", 0, QApplication::UnicodeUTF8));
+        labelEdit->setToolTip(QApplication::translate("EditAddressDialog", "The label associated with this address book exit", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         label_2->setText(QApplication::translate("EditAddressDialog", "&Address", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
-        addressEdit->setToolTip(QApplication::translate("EditAddressDialog", "The address associated with this address book entry. This can only be modified for sending addresses.", 0, QApplication::UnicodeUTF8));
+        addressEdit->setToolTip(QApplication::translate("EditAddressDialog", "The address associated with this address book entry. This can only be modified if you want to.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
     } // retranslateUi
 

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'rpcconsole.ui'
 **
-** Created: Sat 5. Oct 14:10:10 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -331,12 +331,12 @@ public:
     void retranslateUi(QDialog *RPCConsole)
     {
         RPCConsole->setWindowTitle(QApplication::translate("RPCConsole", "Crazycoin - Debug window", 0, QApplication::UnicodeUTF8));
-        label_9->setText(QApplication::translate("RPCConsole", "Bitcoin Core", 0, QApplication::UnicodeUTF8));
-        label_5->setText(QApplication::translate("RPCConsole", "Client name", 0, QApplication::UnicodeUTF8));
+        label_9->setText(QApplication::translate("RPCConsole", "Crazycoin Core", 0, QApplication::UnicodeUTF8));
+        label_5->setText(QApplication::translate("RPCConsole", "Client Name", 0, QApplication::UnicodeUTF8));
         clientName->setText(QApplication::translate("RPCConsole", "N/A", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("RPCConsole", "Client version", 0, QApplication::UnicodeUTF8));
         clientVersion->setText(QApplication::translate("RPCConsole", "N/A", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("RPCConsole", "Using OpenSSL version", 0, QApplication::UnicodeUTF8));
+        label_14->setText(QApplication::translate("RPCConsole", "Using OpenSSL Version", 0, QApplication::UnicodeUTF8));
         openSSLVersion->setText(QApplication::translate("RPCConsole", "N/A", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("RPCConsole", "Build date", 0, QApplication::UnicodeUTF8));
         buildDate->setText(QApplication::translate("RPCConsole", "N/A", 0, QApplication::UnicodeUTF8));

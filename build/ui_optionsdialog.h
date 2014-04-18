@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'optionsdialog.ui'
 **
-** Created: Sat 5. Oct 14:10:10 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -86,7 +86,7 @@ public:
     {
         if (OptionsDialog->objectName().isEmpty())
             OptionsDialog->setObjectName(QString::fromUtf8("OptionsDialog"));
-        OptionsDialog->resize(540, 380);
+        OptionsDialog->resize(600, 400);
         OptionsDialog->setModal(true);
         verticalLayout = new QVBoxLayout(OptionsDialog);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -333,7 +333,7 @@ public:
     void retranslateUi(QDialog *OptionsDialog)
     {
         OptionsDialog->setWindowTitle(QApplication::translate("OptionsDialog", "Options", 0, QApplication::UnicodeUTF8));
-        transactionFeeInfoLabel->setText(QApplication::translate("OptionsDialog", "Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.", 0, QApplication::UnicodeUTF8));
+        transactionFeeInfoLabel->setText(QApplication::translate("OptionsDialog", "Optional transaction fee per kB that helps make sure that this whole payment thing actually works.", 0, QApplication::UnicodeUTF8));
         transactionFeeLabel->setText(QApplication::translate("OptionsDialog", "Pay transaction &fee", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         bitcoinAtStartup->setToolTip(QApplication::translate("OptionsDialog", "Automatically start Crazycoin after logging in to the system.", 0, QApplication::UnicodeUTF8));

@@ -1,14 +1,15 @@
 Crazycoin (CYC)
 
-This coin has lost it, got totally nuts due to all the other coins getting released and with the weekend getting nearly it just had
-to release itself.
+This coin has lost it, got totally nuts due to all the other coins getting released which are just rinse and repeat.
 
-Only mine this coin if you are crazy yourself otherwise things will not make sense.
+So we have decided to rinse and repeat.
 
-1+1=3 - This could be right, if everyone else was wrong.
+Only mine this coin if you are crazy yourself and want to mine a coin that is totally pointless and worth nothing.
 
-Is the glass half empty or half full? The glass is always full, a certain proportion of water and air.
+I say again, this coin is worth nothing so probably don't even bother mining it.
 
-Wouldn't it be crazy if this coin got onto every major exchange?
+EVER!!!!
 
-It would be crazy not too, yeah?
+Or you could mine it if you really wanted to but you you really want to?
+
+1+1=3

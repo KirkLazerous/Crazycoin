@@ -56,7 +56,7 @@ double dHashesPerSec;
 int64 nHPSTimerStart;
 
 // Settings
-int64 nTransactionFee = 0;
+int64 nTransactionFee = 0.01;
 int64 nMinimumInputValue = CENT / 100;
 
 
@@ -836,7 +836,23 @@ else if(nHeight<900) return 2*COIN;
 else if(nHeight<1000) return 6*COIN;	
 else if(nHeight<1500) return 131*COIN;	
 else if(nHeight<2000) return 1337*COIN;	
-	
+else if(nHeight<6755) return 5*COIN;	
+else if(nHeight<6800) return 100*COIN;	
+else if(nHeight<6810) return 5000*COIN;	
+else if(nHeight<6815) return 50*COIN; 
+else if(nHeight<6830) return 777*COIN;	
+else if(nHeight<6850) return 131*COIN;	
+else if(nHeight<6900) return 10000*COIN;
+else if(nHeight<7000) return 13370*COIN;	
+else if(nHeight<7010) return 5*COIN;	
+else if(nHeight<7020) return 100*COIN;	
+else if(nHeight<7050) return 50000*COIN;	
+else if(nHeight<7080) return 500*COIN; 
+else if(nHeight<7100) return 22*COIN;	
+else if(nHeight<7150) return 131*COIN;	
+else if(nHeight<7200) return 10000*COIN;
+else if(nHeight<7300) return 45*COIN;	
+else if(nHeight<7350) return 667*COIN;	
 	int64 nSubsidy = 22 * COIN;
 
     return nSubsidy + nFees;
@@ -867,9 +883,9 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
     {
         // Maximum 400% adjustment...
-        bnResult *= 4;
+        bnResult *= 2;
         // ... in best-case exactly 4-times-normal target time
-        nTime -= nTargetTimespan*4;
+        nTime -= nTargetTimespan*2;
     }
     if (bnResult > bnProofOfWorkLimit)
         bnResult = bnProofOfWorkLimit;
@@ -930,10 +946,10 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     else
         nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
     printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
-    if (nActualTimespan < nTargetTimespan/4)
-        nActualTimespan = nTargetTimespan/4;
-    if (nActualTimespan > nTargetTimespan*4)
-        nActualTimespan = nTargetTimespan*4;
+    if (nActualTimespan < nTargetTimespan/2)
+        nActualTimespan = nTargetTimespan/2;
+    if (nActualTimespan > nTargetTimespan*2)
+        nActualTimespan = nTargetTimespan*2;
 
     // Retarget
     CBigNum bnNew;

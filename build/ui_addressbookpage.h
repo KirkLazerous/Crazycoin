@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'addressbookpage.ui'
 **
-** Created: Sat 5. Oct 14:10:09 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -46,7 +46,7 @@ public:
     {
         if (AddressBookPage->objectName().isEmpty())
             AddressBookPage->setObjectName(QString::fromUtf8("AddressBookPage"));
-        AddressBookPage->resize(760, 380);
+        AddressBookPage->resize(800, 400);
         verticalLayout = new QVBoxLayout(AddressBookPage);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         labelExplanation = new QLabel(AddressBookPage);
@@ -145,7 +145,7 @@ public:
     void retranslateUi(QWidget *AddressBookPage)
     {
         AddressBookPage->setWindowTitle(QApplication::translate("AddressBookPage", "Address Book", 0, QApplication::UnicodeUTF8));
-        labelExplanation->setText(QApplication::translate("AddressBookPage", "These are your Crazycoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.", 0, QApplication::UnicodeUTF8));
+        labelExplanation->setText(QApplication::translate("AddressBookPage", "These are your Crazycoin addresses for receiving payments. You may want to give a different one to each sender or you could just not bother.", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         tableView->setToolTip(QApplication::translate("AddressBookPage", "Double-click to edit address or label", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>573</width>
-    <height>342</height>
+    <width>600</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -50,7 +50,7 @@
              <string notr="true">QLabel { color: red; }</string>
             </property>
             <property name="text">
-             <string notr="true">(out of sync)</string>
+             <string notr="true">(Waiting For Next Block)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

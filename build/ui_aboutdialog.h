@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'aboutdialog.ui'
 **
-** Created: Sat 5. Oct 14:10:10 2013
+** Created: Mon 31. Mar 08:31:54 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -43,7 +43,7 @@ public:
     {
         if (AboutDialog->objectName().isEmpty())
             AboutDialog->setObjectName(QString::fromUtf8("AboutDialog"));
-        AboutDialog->resize(593, 331);
+        AboutDialog->resize(600, 350);
         horizontalLayout_2 = new QHBoxLayout(AboutDialog);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         label_4 = new QLabel(AboutDialog);
@@ -59,7 +59,7 @@ public:
 
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer_2 = new QSpacerItem(22, 42, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_2->addItem(verticalSpacer_2);
 
@@ -81,7 +81,7 @@ public:
 
         horizontalLayout->addWidget(versionLabel);
 
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        horizontalSpacer = new QSpacerItem(42, 22, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
@@ -96,7 +96,7 @@ public:
 
         verticalLayout_2->addWidget(label_2);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer = new QSpacerItem(22, 42, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_2->addItem(verticalSpacer);
 
@@ -123,8 +123,7 @@ public:
         AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "Inside Crazycoin", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("AboutDialog", "<b>Crazycoin</b> version", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
-"          Crazycoin is only for the strong minded or the insane.\n"
-"		  Crazycoin is made in honour of Jimmy's forum Cryptocointalk.com a site dedicated to all Crypto-Currency.\n"
+"Crazycoin is only for the the insane.\n"
 "        ", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
