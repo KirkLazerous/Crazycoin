@@ -10,6 +10,6 @@ I say again, this coin is worth nothing so probably don't even bother mining it.
 
 EVER!!!!
 
-Or you could mine it if you really wanted to but you you really want to?
+Or you could mine it if you really wanted to but do you really want to?
 
 1+1=3
